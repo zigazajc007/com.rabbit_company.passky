@@ -117,9 +117,16 @@
 		<value key="GnomeSoftware::popular-background">https://cdn.passky.org/images/banner.png</value>
 	</metadata>
 
+	<requires>
+		<display_length compare="gt">400</display_length>
+	</requires>
+
 	<recommends>
 		<memory>2048</memory>
+		<display_length compare="ge">600</display_length>
+		<display_length compare="lt">3840</display_length>
 	</recommends>
+
 	<supports>
 		<control>pointing</control>
 		<control>keyboard</control>
